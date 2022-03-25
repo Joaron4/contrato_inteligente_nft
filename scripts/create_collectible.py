@@ -4,7 +4,7 @@ from web3 import Web3
 
 
 def main():
-    account = get_account()  # id="account-semillero2"
+    account = get_account()  # id="account-semillero2" ---- id="semillero3"
     compra_venta = CompraVentaNft[-1]
     value = compra_venta.getPrice() + 100
     creation_tx = compra_venta.createCollectible({"from": account, "value": value})
