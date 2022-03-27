@@ -106,7 +106,7 @@ contract CompraVentaNft is ERC721 {
         _setTokenURI(tokenId, _tokenURI);
     }
 
-    //||||||||||||FUNCTION 2 USD-ETHER|||||||||||||||||||||||
+    //||||||||||||FUNCTION 3 USD-ETHER|||||||||||||||||||||||
 
     function getPrice() public view returns (uint256) {
         (
